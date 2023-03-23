@@ -125,7 +125,7 @@ df1 = clean_code(df)
 ## 2.1
 
 #image_path = r'C:\Users\usuario\Documents\projetos\1_CDS\logo.png'
-image = Image.open(r'C:\Users\usuario\Documents\projetos\1_CDS\logo.png')
+image = Image.open('logo.png')
 st.sidebar.image( image, width = 120)
 st.sidebar.markdown('# Fome Zero')
 st.sidebar.markdown('## O Melhor lugar para encontrar seu mais novo restaurante favorito!')
